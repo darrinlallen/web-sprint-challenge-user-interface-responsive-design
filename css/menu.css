@@ -112,12 +112,13 @@ header {
 
 .menu {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-image: url('../img/staff-bartender.jpg');
     background-color: rgb(0, 4, 17);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
 }
 
 /* footer section */
@@ -127,6 +128,7 @@ footer {
     padding-top: 2.5vh;
     font-size: 3rem;
 }
+
 
 /* mobile media query */
 @media (max-width: 428px) {
@@ -140,9 +142,10 @@ footer {
 
     /* menu */
     .menu {
-        background-image: none;
+        background-image:none ;
     }
 
+   
     /* footer section */
     footer {
         height: auto;
